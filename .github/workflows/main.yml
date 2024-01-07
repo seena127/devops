@@ -29,7 +29,8 @@ jobs:
         run: |
           aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws ecr get-login-password --region us-east-1 | docker login --username bsreenu1999 --password ${{ secrets.DOCKER_PASSWORD }} devops          docker push devops/crud
+          aws ecr get-login-password --region us-east-1 | docker login --username bsreenu1999 --password ${{ secrets.DOCKER_PASSWORD }} docker.io
+          docker push devops/crud
 
       - name: Deploy to EKS
         run: |
