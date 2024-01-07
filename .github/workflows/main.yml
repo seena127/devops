@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu
+    runs-on: centos-latest
 
     steps:
       - name: Checkout Repository
