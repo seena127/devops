@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 FROM python:3.8
 
 WORKDIR /app
@@ -10,33 +10,3 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 CMD ["python", "app.py"]
-
-=======
-<<<<<<< HEAD
-FROM python:3.8
-
-WORKDIR /app
-
-COPY requirements.txt .
-
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-
-CMD ["python", "app.py"]
-
-=======
-FROM python:3.8
-
-WORKDIR /app
-
-COPY requirements.txt .
-
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-
-CMD ["python", "app.py"]
-
->>>>>>> 31ea338a11e7a18514bfda3424a2c195f58c2d0c
->>>>>>> e62028601fd9475aca951b54085236bf36c87c5f
