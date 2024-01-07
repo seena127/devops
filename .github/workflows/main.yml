@@ -23,7 +23,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t bsreenu1999/crud  -f devops/Dockerfile .
+          docker build -t bsreenu1999/crud  -f Dockerfile .
 
       - name: Push Docker Image to ECR
         run: |
