@@ -10,7 +10,10 @@ db = SQLAlchemy(app)
 
 @app.route('/')
 def home():
-    return 'Hello, this is the home page!'
+    current_directory = os.getcwd()
+    return f'Hello, this is the home page! Database file is in directory: {current_directory}'
+
+    
 
 class Item(db.Model):
     id = db.Column(db.Integer, primary_key=True)
