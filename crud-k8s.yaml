@@ -2,17 +2,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: CRUD
+  name: crud
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: CRUD
+      app: crud
   template:
     metadata:
       labels:
-        app: CRUD
+        app: crud
     spec:
       containers:
-        - name: CRUD
+        - name: crud
           image: bsreenu1999/crud
