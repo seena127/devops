@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
         - name: CRUD
-          image: devops/crud
+          image: bsreenu1999/crud
