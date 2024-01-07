@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: CentOS-latest
+    runs-on: RHEL
 
     steps:
       - name: Checkout Repository
