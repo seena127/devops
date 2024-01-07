@@ -1,0 +1,37 @@
+<<<<<<< HEAD
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: CRUD
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: CRUD
+  template:
+    metadata:
+      labels:
+        app: CRUD
+    spec:
+      containers:
+        - name: CRUD
+          image: devops/crud
+=======
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: CRUD
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: CRUD
+  template:
+    metadata:
+      labels:
+        app: CRUD
+    spec:
+      containers:
+        - name: CRUD
+          image: devops/crud
+>>>>>>> 31ea338a11e7a18514bfda3424a2c195f58c2d0c
