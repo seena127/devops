@@ -1,24 +1,6 @@
-<<<<<<< HEAD
 
 Flask
 Flask-SQLAlchemy
 SQLAlchemy
 Werkzeug
 
-=======
-<<<<<<< HEAD
-
-Flask
-Flask-SQLAlchemy
-SQLAlchemy
-Werkzeug
-
-=======
-
-Flask
-Flask-SQLAlchemy
-SQLAlchemy
-Werkzeug
-
->>>>>>> 31ea338a11e7a18514bfda3424a2c195f58c2d0c
->>>>>>> e62028601fd9475aca951b54085236bf36c87c5f
